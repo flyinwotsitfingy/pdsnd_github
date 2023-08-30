@@ -272,7 +272,9 @@ def user_stats(df, city):
 
 def main():
     while True:
+        # use get_filters function to obtain user data on city, month and day of the week of interest
         city, month, day = get_filters()
+        # load selected data into a dataframe
         df = load_data(city, month, day)
 
         time_stats(df)
