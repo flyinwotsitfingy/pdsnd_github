@@ -7,7 +7,14 @@ Include the date you created this project and README file.
 US Bikeshare Data Analysis
 
 ### Description
-Describe what your project is about and what it does
+This project analyses bikeshare data from three US cities according to user-supplied criteria:
+- City, from a choice of three:
+    1. Chicago
+    2. New York City
+    3. Washington
+- Month of interest
+- Day of week of interest
+The program outputs some interesting statistics and gives the user the option of displaying raw data in five-row chunks
 
 ### Files used
 Include the files used
