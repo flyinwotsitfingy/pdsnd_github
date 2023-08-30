@@ -17,7 +17,11 @@ This project analyses bikeshare data from three US cities according to user-supp
 The program outputs some interesting statistics and gives the user the option of displaying raw data in five-row chunks
 
 ### Files used
-Include the files used
+The project includes the following files:
+- bikeshare_2.py - _this is the project code, written in Python 3_
+- chicago.csv - _bikeshare data for Chicago_
+- new_york_city.csv _bikeshare data for New York City_
+- washington.csv _bikeshare data for Washington_
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
