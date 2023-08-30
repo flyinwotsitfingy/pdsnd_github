@@ -91,6 +91,7 @@ def get_filters():
         if city in ['chicago', 'new york city', 'washington']:
             break
         else:
+            # handle invalid input appropriately
             print('Invalid input. Please try again.')
 
     # get user input for month (all, january, february, ... , june)
@@ -99,6 +100,7 @@ def get_filters():
         if month in ['all', 'jan', 'feb', 'mar', 'apr', 'may', 'jun']:
             break
         else:
+            # handle invalid input appropriately
             print('Invalid input. Please try again.')
             
     # get user input for day of week (all, monday, tuesday, ... sunday)
@@ -109,6 +111,7 @@ def get_filters():
             day = full_days[day]
             break
         else:
+            # handle invalid input appropriately
             print('Invalid input. Please try again.')
     
     print('-'*40)
