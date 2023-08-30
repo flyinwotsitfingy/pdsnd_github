@@ -31,8 +31,8 @@ def convert_seconds(seconds):
 
 
 def generator_from_dataframe(df):
-    for row in df.iterrows():
-        yield row
+    for raw_data_row in df.iterrows():
+        yield raw_data_row
 
 
 def display_raw_data(df):
