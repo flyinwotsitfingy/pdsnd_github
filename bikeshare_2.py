@@ -25,9 +25,9 @@ def convert_seconds(seconds):
     num_minutes = secs_to_allocate // 60
     
     # find out how many seconds remaining
-    remaining_seconds = secs_to_allocate - (num_minutes *60)
+    rem_seconds = secs_to_allocate - (num_minutes *60)
     
-    return num_days, num_hours, num_minutes, int(remaining_seconds)
+    return num_days, num_hours, num_minutes, int(rem_seconds)
 
 
 def generator_from_dataframe(df):
